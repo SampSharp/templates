@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="SampSharp.Templates.82bc4b11-0b07-4826-8696-daefc7f122dd" Version="1.1" Language="en-US" Publisher="Tim Potze" />
+        <Identity Id="SampSharp.Templates.82bc4b11-0b07-4826-8696-daefc7f122dd" Version="1.2" Language="en-US" Publisher="Tim Potze" />
         <DisplayName>SampSharp Templates</DisplayName>
         <Description xml:space="preserve">Templates for new SampSharp projects.</Description>
         <MoreInfo>https://sampsharp.net/</MoreInfo>
