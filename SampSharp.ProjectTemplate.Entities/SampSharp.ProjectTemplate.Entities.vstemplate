@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"
+            xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+    <TemplateData>
+        <Name>SampSharp ECS GameMode</Name>
+        <Description>A project template for creating a SA-MP game mode using SampSharp.Entities.</Description>
+        <Icon>sampsharp.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <LanguageTag>csharp</LanguageTag>
+        <PlatformTag>linux</PlatformTag>
+        <PlatformTag>windows</PlatformTag>
+        <ProjectTypeTag>SampSharp</ProjectTypeTag>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>SampSharpGameMode</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <CreateInPlace>true</CreateInPlace>
+    </TemplateData>
+    <TemplateContent>
+        <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+            <ProjectItem ReplaceParameters="true" OpenInEditor="true">System1.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true">Startup.cs</ProjectItem>
+        </Project>
+    </TemplateContent>
+</VSTemplate>

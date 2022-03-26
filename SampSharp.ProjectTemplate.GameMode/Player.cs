@@ -2,7 +2,7 @@
 using SampSharp.GameMode.Pools;
 using SampSharp.GameMode.World;
 
-namespace SampSharp.Template.GameMode
+namespace $safeprojectname$
 {
     [PooledType]
     public class Player : BasePlayer

@@ -1,7 +1,7 @@
 ﻿using SampSharp.Core;
 using SampSharp.Entities;
 
-namespace SampSharp.Template.Entities
+namespace $safeprojectname$
 {
     public class Program
     {

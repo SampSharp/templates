@@ -3,7 +3,7 @@ using SampSharp.Entities;
 using SampSharp.Entities.SAMP;
 using SampSharp.Entities.SAMP.Commands;
 
-namespace SampSharp.Template.Entities
+namespace $safeprojectname$
 {
     public class System1 : ISystem
     {
@@ -16,6 +16,8 @@ namespace SampSharp.Template.Entities
 
             serverService.AddPlayerClass(8, new Vector3(0, 0, 7), 0);
             serverService.SetGameModeText("Blank game mode");
+            
+            // TODO: Put logic to initialize your game mode here
         }
 
         [PlayerCommand("hello")]

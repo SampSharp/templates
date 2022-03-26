@@ -2,7 +2,7 @@
 using SampSharp.Entities;
 using SampSharp.Entities.SAMP;
 
-namespace SampSharp.Template.Entities
+namespace $safeprojectname$
 {
     public class Startup : IStartup
     {

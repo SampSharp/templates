@@ -1,6 +1,6 @@
 ﻿using SampSharp.Core;
 
-namespace SampSharp.Template.GameMode
+namespace $safeprojectname$
 {
     public class Program
     {
